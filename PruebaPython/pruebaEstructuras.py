@@ -19,3 +19,6 @@ print(num_list)
 
 for num in num_list :
     print("Value: ", num)
+    
+for pos, num in enumerate(num_list) :
+    print("Pos: ", pos, "Num: ", num)
